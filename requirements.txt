@@ -36,3 +36,10 @@ sentence_transformers
 feedparser
 protobuf==3.20.2
 wandb
+tavily-python
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+pypdf
+pytest

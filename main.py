@@ -1,5 +1,13 @@
+from dotenv import load_dotenv
+from agents.main_agent import MainAgent
+
+load_dotenv()
+
+
 def main():
-    print("Hello from ai-knowledge-assistant-agentic-rag-platform!")
+    agent = MainAgent()
+    result = agent.run("What information do you have in your knowledge base?")
+    print(result)
 
 
 if __name__ == "__main__":
